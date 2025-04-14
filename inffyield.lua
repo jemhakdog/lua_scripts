@@ -17,7 +17,7 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
     notLoaded:Destroy()
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/SKYLOLAND/refs/heads/main/AriseC.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/SKYLOLAND/refs/heads/main/Load.lua"))()
 
 currentVersion = "6.3.1"
 
