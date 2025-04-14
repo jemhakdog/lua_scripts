@@ -6344,6 +6344,7 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if KeepInfYield and (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
+		taks.wait(3)
 		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/jemhakdog/lua_scripts/refs/heads/main/inffyield.lua'))()")
 	end
 end)
